@@ -1,4 +1,5 @@
 import mysql.connector
+import mysql.connector.Error
 
 def databseCreation(mydb):
     try:
