@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
         databseCreation(mydb)
 
-    except Error as e:
+    except mysql.connector.Error as e:
         print(f"Error Connecting to MYSQL: {e}")
 
     finally:
