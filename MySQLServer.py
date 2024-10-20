@@ -23,7 +23,7 @@ if __name__ == "__main__":
         mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Root@alx2024",
+        password="xxxxxxxx",
         database="mydb"
         )
 
